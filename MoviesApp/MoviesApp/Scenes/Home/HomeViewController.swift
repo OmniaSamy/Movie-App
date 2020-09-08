@@ -31,9 +31,6 @@ class HomeViewController: UIViewController {
     
     private func observe() {
         self.homeViewModel.movieList.addObserver(self) {
-            // display error
-            print(self.homeViewModel.movieList.value ?? "")
-            print("data in view passed")
             self.homeTableView.reloadData()
         }
     }

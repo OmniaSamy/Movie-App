@@ -6,6 +6,7 @@ PODS:
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
+  - RxSwift (5.1.1)
   - SwiftMessages (7.0.1):
     - SwiftMessages/App (= 7.0.1)
   - SwiftMessages/App (7.0.1)
@@ -13,6 +14,7 @@ PODS:
 DEPENDENCIES:
   - AlamofireImage
   - Moya
+  - RxSwift
   - SwiftMessages
 
 SPEC REPOS:
@@ -20,14 +22,16 @@ SPEC REPOS:
     - Alamofire
     - AlamofireImage
     - Moya
+    - RxSwift
     - SwiftMessages
 
 SPEC CHECKSUMS:
   Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
   AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
 
-PODFILE CHECKSUM: edab7e2524de81bee2db9eb0250bb951d69efb9a
+PODFILE CHECKSUM: 2e8f2ff1c7608205d3c88ae8a30ed3823a89d03e
 
 COCOAPODS: 1.9.3

@@ -9,5 +9,6 @@ target 'MoviesApp' do
   pod 'Moya'
   pod 'AlamofireImage'
   pod 'SwiftMessages'
+  pod 'RxSwift'
   
 end
