@@ -18,6 +18,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        self.title = "Movies"
         observe()
         
         homeTableView.dataSource = self
